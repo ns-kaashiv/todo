@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.springboot</groupId>
 	<artifactId>todo</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>todo</name>
 	<description>Demo project for Spring Boot</description>
