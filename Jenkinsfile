@@ -1,11 +1,5 @@
 pipeline {
-    agent {
-        label 'ec2-fleet'
-    }
-
-    triggers {
-        githubPush()
-    }
+    agent any
 
     stages {
         stage('Build') {
